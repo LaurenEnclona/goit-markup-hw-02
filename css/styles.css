@@ -1,0 +1,227 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navybluemodal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+/* general */
+body {
+  font-family: "roboto", sans-serif;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.weblogo {
+  color: var(--iris, #4d5ae5);
+}
+
+.studiologo {
+  color: var(--navyblue, #2e2f42);
+}
+
+/* nav */
+.nav {
+  text-decoration: none;
+}
+.nav-list {
+  text-decoration: none;
+  color: var(--navyblue, #2e2f42);
+  font-weight: 500;
+  list-style: none;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--ocean, #404bbf);
+}
+
+.link-active {
+  color: var(--ocean, #404bbf);
+}
+.link {
+  text-decoration: none;
+}
+.contacts-list {
+  color: var(--slate, #434455);
+  text-decoration: none;
+  list-style: none;
+}
+
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--ocean, #404bbf);
+}
+
+/* hero page */
+
+.hero {
+  background-color: var(--navyblue, #2e2f42);
+  margin: 0%;
+  padding: 0%;
+}
+.hero-text {
+  color: var(--white, #fff);
+  text-align: center;
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+.order-button {
+  cursor: pointer;
+  color: var(--white, #fff);
+  background: var(--iris, #4d5ae5);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.order-button:hover,
+.order-button:focus {
+  color: var(--white, #fff);
+  background-color: var(--ocean, #05092f);
+}
+
+.section {
+  background-color: var(--white, #fff);
+}
+
+.feature-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.feature-title {
+  color: var(--slate, #434455);
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.feature-description {
+  color: var(--slate, #434455);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.team {
+  text-align: center;
+  background-color: var(--cloud, #fff);
+}
+.team-photo {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  width: 264px;
+  height: 260px;
+}
+
+.team-name {
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.team-jobrole {
+  color: var(--slate, #434455);
+}
+
+.footer {
+  background-color: var(--navyblue, #2e2f42);
+}
+
+.studiologo2 {
+  color: var(--cloud, #f4f4fd);
+}
+
+.motto {
+  color: var(--cloud, #f4f4fd);
+}
+
+/* portfolio page*/
+.portfolio-list {
+  background-color: var(--white, #fff);
+}
+.filter-list {
+  margin: 24px;
+}
+.filter-button {
+  cursor: pointer;
+  color: var(--ocean, #4d5ae5);
+  background-color: var(--cloud, #f4f4fd);
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--cloud, #f4f4fd);
+  background-color: var(--ocean, #05092f);
+  border-color: var(--ocean, #05092f);
+  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
+}
+
+.active-filter {
+  color: var(--white, #fff);
+  background-color: var(--ocean, #05092f);
+  border-color: var(--ocean, #05092f);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-list {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin: 24px;
+}
