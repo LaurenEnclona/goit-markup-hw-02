@@ -191,7 +191,7 @@ body {
 /* checked */
 .button.filter:hover,
 .button.filter:focus,
-.button.filter:current {
+.button.filter.current {
   color: var(--cloud);
   background-color: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
